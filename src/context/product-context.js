@@ -27,7 +27,7 @@ export const ProductContext = React.createContext({
 			isFavorite: false,
 		},
 	],
-	toggleFavorite: () => {},
+	toggleFavorite: (id) => {},
 })
 
 export const ProductProvider = (props) => {
